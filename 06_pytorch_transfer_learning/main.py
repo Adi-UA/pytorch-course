@@ -22,8 +22,8 @@ if __name__ == "__main__":
     filepath = DATA_DIR / "pizza_steak_sushi.zip"
     img_dir = DATA_DIR / "pizza_steak_sushi"
     if not img_dir.exists():
-        fetch_data(file_name=filepath, url=url)
-        unzip_data(file_name=filepath, extract_dir=img_dir)
+        fetch_data(filepath=filepath, url=url)
+        unzip_data(filepath=filepath, extract_dir=img_dir)
     else:
         print(f"Data already exists in {DATA_DIR / img_dir}")
 
