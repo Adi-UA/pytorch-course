@@ -13,7 +13,7 @@ executing==2.0.1
 filelock==3.13.1
 fonttools==4.45.1
 fsspec==2023.10.0
-idna==3.5
+idna==3.7
 ipykernel==6.26.0
 ipython==8.18.0
 jedi==0.19.1
